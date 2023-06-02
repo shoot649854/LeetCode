@@ -18,7 +18,7 @@ class Solution:
                  [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]]
         for i in cases:
             result = self.containsDuplicate(i)
-            print("Case: %s -> Contains Duplicate: %s" % (i, result))
+            print(f"Case: {i} -> Contains Duplicate: {result}")
 
 
 solution = Solution()
